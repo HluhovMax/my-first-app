@@ -1,0 +1,14 @@
+h4 {
+  color: chocolate;
+}
+
+button {
+  background-color: cornflowerblue;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
