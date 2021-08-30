@@ -1,5 +1,13 @@
 <h2>AWS Servers: </h2>
 <hr>
-<button class="btn btn-primary" [disabled]="!allowNewServer">Add Server</button>
+<button
+  class="btn btn-primary"
+  [disabled]="!allowNewServer"
+  (click)="onCreateServer()">
+  Add Server
+</button>
+<br/>
+<br/>
+<p>{{serverCreationStatus}}</p>
 <hr>
 <server></server>
