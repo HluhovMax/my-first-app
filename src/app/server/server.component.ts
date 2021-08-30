@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'server',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./server.component.css']
 })
 export class ServerComponent {
+  city = `New York`;
+  serverId = 10;
+  serverStatus = 'offline';
 
+  getServerStatus() {
+    return this.serverStatus;
+  }
 }
