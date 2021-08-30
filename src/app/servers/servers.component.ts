@@ -10,6 +10,7 @@ export class ServersComponent implements OnInit {
   allowNewServer = false;
   serverCreationStatus = `No server was created!`;
   serverName = `test-server-ny`;
+  username = ``;
 
   constructor() {
     console.log(`Inside ServersComponent.Constructor`)

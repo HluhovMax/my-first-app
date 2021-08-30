@@ -16,3 +16,17 @@
 <p>{{serverCreationStatus}}</p>
 <hr>
 <server></server>
+<hr>
+<br/>
+<label>Username</label>
+<input type="text" class="form-control" [(ngModel)]="username">
+<br/>
+<p>{{username}}</p>
+<br/>
+<button
+  class="btn btn-success"
+  [disabled]="username===''"
+  (click)="username=''">
+  Reset User
+</button>
+<br/>
